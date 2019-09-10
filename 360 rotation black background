@@ -1,0 +1,14 @@
+color background [0,0,0] #[R,G,B] 0,0,0 is black
+/*
+  add any other rendering commands
+*/
+for (var i=0; i<36; i=i+1)
+  write image 640 480 @{"movie" + ("0000" + i)[-3][0] + ".jpg"}
+    /* 640 and 480 are width and height */
+  rotate axisangle {0 1 0} 10
+    /* axis is defined by X Y Z lengths between braces; this one is at 45 degrees
+      and 10 (degrees) is angle of rotation, so the 36-loop gives a full turn
+    */
+end for
+
+#taken from http://wiki.jmol.org/index.php/Creating_Movies anf modified 

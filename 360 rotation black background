@@ -11,6 +11,6 @@ for (var i=0; i<36; i=i+1)
     */
 end for
 
-#taken from http://wiki.jmol.org/index.php/Creating_Movies anf modified
+#taken from http://wiki.jmol.org/index.php/Creating_Movies and modified
 #tip: when turning this into a gif using GIMP, select "one frame per layer" under frame disposal option.
 #this seems to make it stop being a rainbow fuzzy mess
